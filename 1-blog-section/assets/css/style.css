@@ -1,0 +1,71 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+     color: #222;
+}
+h2 {
+    font-size: 32px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+.sectio-title {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    color: #565656;
+    font-size: 17px;
+}
+.blog-box{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ff8600;
+}
+.blog-box-bg-1{
+    background-image: url(../img/blog-img-1.jpg); 
+}
+.blog-box-bg-2{
+    background-image: url(../img/blog-img-2.jpg);
+}
+.blog-box-bg-3{
+    background-image: url(../img/blog-img-3.jpg);
+}
+.blog-text {
+    padding: 20px;
+    border: 1px solid #e9e9e9;
+}
+/*.blog-meta a{
+    margin-right: 60px;
+}
+.blog-meta i{
+    margin-right: 10px;
+}
+.blog-meta p{
+    display: inline-block;
+}*/
